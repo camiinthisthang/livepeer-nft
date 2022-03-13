@@ -9,6 +9,7 @@ This guide will walk users through uploading and minting a video as an NFT using
 - Have a .mp4 video on your machine to upload.
 - Have a metamask wallet and Metamask broswer extension.
 - Be connected to the Polygon network.
+- Have MATIC or test MATIC in your Metamask wallet.
 
 ### Upload Your Video
 1. Get an API key for Livepeer [here](livepeer.com/dashboard/developers/api-keys). 
@@ -39,9 +40,11 @@ This guide will walk users through uploading and minting a video as an NFT using
 
 ### Mint your Video NFT
 
-1. After navigating to the URL provided, you can leave the contract field blank and default to Livepeer's contract. 
-2. Tried to hit the default contract but got this error:
-<img width="472" alt="Screen Shot 2022-03-10 at 8 12 18 PM" src="https://user-images.githubusercontent.com/15346823/157806339-b54dd142-72b5-4353-892c-204ff32606a9.png">
+1. After navigating to the URL provided, you can leave the contract field blank and default to Livepeer's contract. Hit "Mint NFT"
+2. You'll have to confirm the transaction and pay for the gas in Metamask. 
+3. Done 🎉
+<img width="494" alt="Screen Shot 2022-03-13 at 5 20 16 PM" src="https://user-images.githubusercontent.com/15346823/158077728-a5cd3e08-990d-423f-a4f3-23ccabf8a90b.png">
+
 
 
 ### Deploy Your Own ERC721 Contract - Housekeeping
