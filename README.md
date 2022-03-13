@@ -44,7 +44,7 @@ This guide will walk users through uploading and minting a video as an NFT using
 2. You'll have to confirm the transaction and pay for the gas in Metamask. 
 3. Done 🎉
 <img width="494" alt="Screen Shot 2022-03-13 at 5 20 16 PM" src="https://user-images.githubusercontent.com/15346823/158077728-a5cd3e08-990d-423f-a4f3-23ccabf8a90b.png">
-
+4. Hit the link provided to view your video NFT on Opensea. You can view the one in this demo [here.](https://opensea.io/assets/matic/0x69C53E7b8c41bF436EF5a2D81DB759Dc8bD83b5F/41).
 
 
 ### Deploy Your Own ERC721 Contract - Housekeeping
