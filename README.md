@@ -1,4 +1,4 @@
-# livepeer-nft
+# Livepeer NFT Workshop
 
 ## Purpose
 
@@ -8,7 +8,8 @@ This guide will walk users through uploading and minting a video as an NFT using
 - Have node installed on your machine.
 - Have a .mp4 video on your machine to upload.
 - Have a metamask wallet and Metamask broswer extension.
-- Be connected to the Polygon network.
+- Have Polygon/Mumbai Testnet AND MATIC in your Metamask.
+>To learn how to add Mumbai Testnet to your wallet, follow [these instructions.](https://github.com/camiinthisthang/mumbai-testnet/blob/main/README.md)
 - Have MATIC or test MATIC in your Metamask wallet.
 
 ### Upload Your Video
@@ -39,7 +40,7 @@ This guide will walk users through uploading and minting a video as an NFT using
 <img width="444" alt="Screen Shot 2022-03-10 at 8 06 39 PM" src="https://user-images.githubusercontent.com/15346823/157800229-7031f3ea-fcae-45a2-a764-cb3c0ca0721c.png">
 
 ### Mint your Video NFT
-Prerequisite: Be sure to have your Metamask network configured to the Plolygon Testnet Mumbai. Instructions for how to do that & get some test MATIC here: 
+Prerequisite: Be sure to have your Metamask network configured to the Plolygon mainnet.
 
 1. After navigating to the URL provided, you can leave the contract field blank and default to Livepeer's contract. Hit "Mint NFT"
 2. You'll have to confirm the transaction and pay for the gas in Metamask. 
