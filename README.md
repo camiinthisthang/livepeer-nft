@@ -13,9 +13,9 @@ This guide will walk users through uploading and minting a video as an NFT using
 - Have MATIC or test MATIC in your Metamask wallet.
 
 ### Upload Your Video
-1. Get an API key for Livepeer [here](livepeer.com/dashboard/developers/api-keys). 
+1. Get an API key for Livepeer [here](https://livepeer.com/dashboard/developers/api-keys). 
 2. Head to the directory where your video is stored - I'd suggest Desktop for east. 
-3. Run the following command in your terminal to install the Livepeer CLI: ```npm install -g @livepeer/video-nft```
+3. Run the following command in your terminal to install the Livepeer CLI: ```npm install -g @livepeer/video-nft``` [(source code)](https://github.com/livepeer/video-nft)
 4. Run the following command in your terminal: ```video-nft```
 5. Enter your Livepeer API key from step 1
 6. Type in the name of the .mp4 you want to upload
