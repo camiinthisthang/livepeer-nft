@@ -10,7 +10,6 @@ This guide will walk users through uploading and minting a video as an NFT using
 - Have a metamask wallet and Metamask broswer extension.
 - Have Polygon/Mumbai Testnet AND MATIC in your Metamask.
 >To learn how to add Mumbai Testnet to your wallet, follow [these instructions.](https://github.com/camiinthisthang/mumbai-testnet/blob/main/README.md)
-- Have MATIC or test MATIC in your Metamask wallet.
 
 ### Upload Your Video
 1. Get an API key for Livepeer [here](https://livepeer.com/dashboard/developers/api-keys). 
@@ -18,9 +17,15 @@ This guide will walk users through uploading and minting a video as an NFT using
 3. Run the following command in your terminal to install the Livepeer CLI: ```npm install -g @livepeer/video-nft``` [(source code)](https://github.com/livepeer/video-nft)
 4. Run the following command in your terminal: ```video-nft```
 5. Enter your Livepeer API key from step 1
+<img width="597" alt="Screen Shot 2022-03-20 at 6 29 00 PM" src="https://user-images.githubusercontent.com/15346823/159186743-7f3da146-4159-4a86-ba5f-ea5e4d21ae26.png">
+
+
 6. Type in the name of the .mp4 you want to upload
 7. Name your NFT.
-8. Optionally customize the metadata for your video NFT by hitting ```Y``` when prompted
+8. Optionally customize the metadata for your video NFT by hitting ```Y``` when prompted.
+<img width="595" alt="Screen Shot 2022-03-20 at 6 29 28 PM" src="https://user-images.githubusercontent.com/15346823/159186748-71930e2e-b269-40d1-b396-0dbf412af936.png">
+
+
 9. Once your video has successfully been uploaded you will get an object with fields, including your IPFS hash containing your metadata:
 
 ```json
@@ -47,6 +52,7 @@ Prerequisite: Be sure to have your Metamask network configured to the Plolygon m
 3. Done 🎉
 <img width="494" alt="Screen Shot 2022-03-13 at 5 20 16 PM" src="https://user-images.githubusercontent.com/15346823/158077728-a5cd3e08-990d-423f-a4f3-23ccabf8a90b.png">
 4. Hit the link provided to view your video NFT on Opensea. You can view the one in this demo [here.](https://opensea.io/assets/matic/0x69C53E7b8c41bF436EF5a2D81DB759Dc8bD83b5F/41).
+
 5. To view the metadata for this NFT, copy the IPFS hash provided to you in the terminal after uploadeding your video. You can take this hash and navigate to
 https://ipfs.io/ipfs/your-ipfs-hash-here
 
