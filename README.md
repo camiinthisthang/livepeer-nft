@@ -13,7 +13,7 @@ This guide will walk users through uploading and minting a video as an NFT using
 
 ### Upload Your Video
 1. Get an API key for Livepeer [here](https://livepeer.com/dashboard/developers/api-keys). 
-2. Head to the directory where your video is stored - I'd suggest Desktop for east. 
+2. Head to the directory where your video is stored - I'd suggest Desktop for ease. 
 3. Run the following command in your terminal to install the Livepeer CLI: ```npm install -g @livepeer/video-nft``` [(source code)](https://github.com/livepeer/video-nft)
 4. Run the following command in your terminal: ```video-nft```
 5. Enter your Livepeer API key from step 1
